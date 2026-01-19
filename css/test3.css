@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: '微软雅黑',sans-serif;
+}
+
+.nav{
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0 15px;
+}
+
+.nav .nav-left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav .nav-left .logo{
+    height: 44px;
+    width: 112px;
+}
+.slip-line{
+    height: 25px;
+    width: 1px;
+    margin: 0 18px;
+    background-color: #dcdcdc;
+}
+
+.link-list{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: #2f2f2f;
+}
+
+.link-list > a{
+    margin: 0 14px;
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.link-list > a svg{
+    color: #626161;
+}
+
+.nav .nav-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-right .login-btn{
+    color: white;
+    width: 56px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(245,108,108);
+}
+.function-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(92,92,92);
+}
+.container{
+    padding-top: 60px;
+    height: 2000px;
+}
