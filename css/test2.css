@@ -8,12 +8,11 @@
 /*}*/
 .grid-box{
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    gap: 1px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .grid-item{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: red;
 }
