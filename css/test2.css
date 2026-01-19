@@ -1,18 +1,30 @@
-/*.card{*/
-/*    width: 200px;*/
-/*    height: 100px;*/
-/*    padding: 1px 12px;*/
-/*    background-color: rgba(234, 233, 234, 0.68);*/
-/*    border: 1px solid rgba(224, 224, 224, 0.68);*/
-/*    border-radius: 8px;*/
-/*}*/
-.grid-box{
-    display: grid;
-    gap: 1px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.main-window{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
 }
-.grid-item{
+.main-header{
+    background-color: rgb(203, 225, 252);
+    height: 50px;
+}
+.content{
+    display: flex;
+    flex: 1;
+}
+.aside{
     width: 200px;
-    height: 200px;
-    background-color: red;
+    background-color: rgb(221, 235, 253);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.footer{
+    height: 50px;
+    background-color: rgb(203, 225, 252);
+}
+.main-header{
+    background-color: rgb(238, 245, 254);
+    flex: 1;
 }
