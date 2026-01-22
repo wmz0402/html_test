@@ -1,0 +1,38 @@
+button{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .3s ease-out,box-shadow .3s ease-out;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.btn-1{
+    background-color: dodgerblue;
+    box-shadow: 0 0 10px dodgerblue;
+    &:hover{box-shadow: 0 0 15px dodgerblue;}
+}
+.btn-2{
+    background-color: #f55fab;
+    box-shadow: 0 0 10px #f55fab;
+    &:hover{
+        box-shadow: 0 0 15px #f55fab;
+    }
+}
+.btn-3{
+    background-color: #03a920;
+    box-shadow: 0 0 10px #03a920;
+    &:hover{
+        box-shadow: 0 0 15px #03a920;
+    }
+}
+.btn-4{
+    background-color: #ee8013;
+    box-shadow: 0 0 10px #ee8013;
+    &:hover{
+        box-shadow: 0 0 15px #ee8013;
+    }
+}
